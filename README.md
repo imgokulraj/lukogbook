@@ -28,7 +28,4 @@ Chatting Page :
 <img src="screenshots/chat.png" width="850" height="500" border="10"/>
 <br/>
 </br>
-## To use the app : 
-### install requirements.txt
-### run the python file : dbconfig.py
-### then run the python file : app.py
+
