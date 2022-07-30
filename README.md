@@ -9,7 +9,7 @@ To use the app :<br/>
   * then run the python file : app.py <br/>
 <br/>
 Here are some screenshots of the project . <br/>
-
+Screenshots may not be clear. Either Download the image or you can view the screenshots in the screenshots folder
 <br/>
 Login Page : <br/>
 <br/>
