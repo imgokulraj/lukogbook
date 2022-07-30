@@ -8,4 +8,4 @@ Here are some screenshots of the project . <br/>
 <br/>
 Login Page : <br/>
 
-![alt text](https://github.com/lukog2002/lukogbook/screenshots/login.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/login.png "Logo Title Text 1")
