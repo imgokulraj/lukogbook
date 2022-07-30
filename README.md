@@ -7,6 +7,4 @@ Here are some screenshots of the project . <br/>
 
 <br/>
 Login Page : <br/>
-![alt text](https://github.com/lukog2002/lukogbook/blob/main/screenshots/loginpage.png?raw=true)
-
-
+![loginpage](https://user-images.githubusercontent.com/78438261/181870996-23e9e19c-d553-4483-bbcd-1b42ce9872b7.png)
