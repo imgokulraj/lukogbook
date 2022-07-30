@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/editprofile.css">
+</head>
+<body>
+    <!-- for adding bio -->
+    <div class="container">
+        <form name="profilebioform" action="editprofile/addbio" method="post">
+            <h1>To add Profile Bio</h1>
+            <!-- <input type="text" name="profilebio" > -->
+            <textarea name="profilebio" id="" cols="30" maxlength="250" rows="10" required></textarea>
+            <input class="btn" type="submit" value="AddBio" id="profile-bio-field">
+        </form>
+        <!-- for adding profile pic -->
+        <form action="editprofile/addprofilepic" method="POST" enctype="multipart/form-data">
+            <h1>To add Profile Pic</h1>
+            <label class="btn">
+                Select Image
+                <input required accept="image/png, image/jpg, image/gif, image/jpeg" type="file" name="file" id="">
+            </label>
+            <input  class="btn" type="submit" value="addPic">
+        </form>
+        <form action="/ediprofile/addposts" enctype="multipart/form-data" method="POST">
+            <h1>To add Posts</h1>
+            <h2>Enter bio</h3>
+            <!-- <input name="bio" type="text"> -->
+            <textarea required name="bio" id="" cols="30" rows="10"></textarea>
+            <label class="btn">
+                Select Image 
+                <input accept="image/png, image/jpg, image/gif, image/jpeg" name="file" type="file">
+            </label>
+       
+            <input class="btn" type="submit" value="Add Posts">
+        </form>
+    </div>
+    
+    <script src="/static/javascript/editprojile.js"></script>
+</body>
+</html>

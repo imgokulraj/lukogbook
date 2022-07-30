@@ -1,0 +1,75 @@
+:root{
+    --body-background-color : steelblue ;
+    --primary-font-color : #fff ;
+    --container-bg-color : rgba(0, 0, 0, 0.4) ; 
+    --nav-bg-color : #333 ;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body-background-color);
+    color: var(--primary-font-color);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 10px;
+
+}
+
+.container{
+    max-width: 1200px;
+    width: 100% ;
+    background-color: var(--container-bg-color);
+    /* padding: 20px 40px; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    /* gap: 40px; */
+    
+}
+input[type=file]{
+    display: none;
+}
+label{
+ cursor: pointer;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    border: 2px solid var(--nav-bg-color);
+    background: transparent;
+    color: var(--primary-font-color);
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+
+    
+    background: var(--body-background-color);
+    padding: 0.7rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 30px 20px;
+
+    border-bottom: 10px solid var(--body-background-color);
+
+}

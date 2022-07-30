@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/profile.css">
+</head>
+<body>
+    <!-- {{ user }} -->
+    <div class="container">
+        {% if canedit == 1 %}
+        <nav>
+            <ul>
+                <li> 
+                    <a href="/profile/chat">Chats</a>
+                </li>
+                <li>
+                    <form action="/profile/search" method="get">
+                    <input class="btn" type="submit" value="Search">
+                    </form>
+                </li>
+                <li>
+                    <form action="/editprofile" method="get">
+                    <button class="btn" type="submit">Edit</button>
+                    </form>
+                </li>
+                <li>
+                    <form action="/logout" method="post">
+                    <button class="btn" type="submit">Logout</button>
+                    </form>
+                </li>            
+            </ul>
+        </nav>
+        {% else %} 
+                
+        {% endif %}
+        <h1 class="profileuser">{{ user }}</h1>
+        <div class="profile-container">
+            {% if userprofile.1 == '' %}
+                <p>Profile photo not updated</p>
+            {% else %} 
+                <img src="{{ '/' + userprofile.1 }}" alt="">
+            {% endif %}
+            {% if userprofile.2 == '' %} 
+                <p>Bio not updated</p>
+            {% else %} 
+                <textarea readonly>{{ userprofile.2 }}</textarea>
+            {% endif %}
+        </div>
+        <h1 class="myposts">My Posts</h1>
+        <div class="posts">
+            
+                {% for post in userprofileposts %} 
+                <div class="profile-container">
+                    <textarea readonly>{{ post.0 }}</textarea>
+                    <img src="{{ '/' + post.1 }}" alt="">
+                </div>
+                {% endfor %}
+            
+        </div>
+    </div>
+</body>
+</html>

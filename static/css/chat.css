@@ -1,0 +1,132 @@
+:root{
+    --body-background-color : steelblue ;
+    --primary-font-color : #fff ;
+    --container-bg-color : rgba(0, 0, 0, 0.4) ; 
+    --nav-bg-color : #333 ;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body-background-color);
+    color: var(--primary-font-color);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    letter-spacing: 2px;
+
+}
+
+.btn{
+    cursor: pointer;  
+    background: var(--body-background-color);
+    padding: 0.7rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+.container{
+    max-width: 1200px;
+    width: 100% ;
+    background-color: var(--container-bg-color);
+    /* padding: 20px 40px; */
+    border-radius: 5px;
+}
+
+.likenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.bubbling{
+    display: flex;
+    flex-direction: column;
+}
+.profile-container{
+   
+    padding: 20px 20px;
+    border-top: 10px solid var(--body-background-color);
+
+
+}
+
+.profile-container h3{
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+  
+}
+.profile-container h3:hover{
+    transform: scale(1.2,1.2);
+ 
+}
+.message-box{
+  grid-template-columns: 90% 10%;
+
+   
+}
+.message-box button.goback{
+    grid-column: 2/3;
+    cursor: pointer;  
+    background: var(--body-background-color);
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.7rem 0;
+    border-radius: 5px;
+
+}
+#msgbox{
+ width: 100%;
+ background: transparent;
+ color: var(--primary-font-color);
+ grid-column: 1/3;
+ outline: none;
+}
+
+#inputbox{
+
+    font-size: 1.1rem;
+
+   
+}
+.message-box button.send-msg{
+    cursor: pointer;  
+    background: var(--body-background-color);
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.7rem 0;
+    border-radius: 5px;
+ 
+}
+.display{
+    display: grid !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .message-box button.goback{
+        grid-column: 1/3;
+    }
+    #inputbox{
+
+       grid-column: 1/3;
+    
+       
+    }
+    .message-box button.send-msg{
+        grid-column: 1/3;
+     
+    }
+  }

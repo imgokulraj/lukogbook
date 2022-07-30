@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/static/css/chat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="likenav">
+            <h3>Welcom to Chat app !</h3>
+            <form action="/profile/search" method="get">
+                <input class="btn" type="submit" value="Search Others">
+            </form>
+            <h2>Profile name : {{ userprofile.0 }}</h2>
+        </div>
+        <div class="bubbling">
+        {% for chats in chathistory %}
+            <div class="profile-container">
+                <!-- <img src="{{ '/' + chats.3 }}" alt=""> -->
+                <h3 class="usernametosendmessage">{{ chats.1 }}</h3>
+                <div class="message-box" style="display: none;">
+                    <button class="goback">Go Back</button>
+                    <textarea readonly id="msgbox" class="{{ 'conversationof' + chats.1 }} stayatbottom" cols="30" rows="10" >{{ chats.2 }}</textarea>
+                    <textarea id="inputbox" name="" id="" cols="30" rows="2"></textarea>
+                    <button class="send-msg">Send</button>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    <script src="/static/javascript/chat.js"></script>
+</body>
+</html>
