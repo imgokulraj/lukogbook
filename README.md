@@ -7,4 +7,4 @@ Here are some screenshots of the project . <br/>
 
 <br/>
 Login Page : <br/>
-![loginpage](https://user-images.githubusercontent.com/78438261/181870996-23e9e19c-d553-4483-bbcd-1b42ce9872b7.png)
+![](screenshots/loginpage.png)
