@@ -7,5 +7,13 @@ Here are some screenshots of the project . <br/>
 
 <br/>
 Login Page : <br/>
-
+<br/>
 ![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/login.png "Logo Title Text 1")
+<br/>
+<br/>
+Profile Page : <br/> <br/>
+![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/profile.png "Logo Title Text 1")
+<br/>
+<br/>
+chatting Page : <br/> <br/>
+![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/chat.png "Logo Title Text 1")
