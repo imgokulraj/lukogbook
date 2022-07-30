@@ -17,8 +17,8 @@ Register Page :
 <br/>
 <br/>
 Profile Page :
-<img src="/screenshots/profile.png" width="450" height="500" border="10"/>
+<img src="/screenshots/profile.png" width="850" height="500" border="10"/>
 <br/>
 <br/>
 Chatting Page : 
-<img src="screenshots/chat.png" width="450" height="500" border="10"/>
+<img src="screenshots/chat.png" width="850" height="500" border="10"/>
