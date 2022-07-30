@@ -7,4 +7,4 @@ Here are some screenshots of the project . <br/>
 
 <br/>
 Login Page : <br/>
-![](screenshots/loginpage.png)
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
