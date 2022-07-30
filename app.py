@@ -1,5 +1,5 @@
 
-from crypt import methods
+
 from flask import Flask, flash, jsonify, redirect, render_template , request, url_for ,session
 import sqlite3
 import static.python.functions as utilities
