@@ -8,12 +8,16 @@ Here are some screenshots of the project . <br/>
 <br/>
 Login Page : <br/>
 <br/>
-![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/login.png "Logo Title Text 1")
+
+<img src="screenshots/login.png" width="450" height="500" border="10"/>
 <br/>
 <br/>
-Profile Page : <br/> <br/>
-![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/profile.png "Logo Title Text 1")
+Register Page :
+<img src="screenshots/register.png" width="450" height="500" border="10"/>
 <br/>
 <br/>
-chatting Page : <br/> <br/>
-![alt text](https://raw.githubusercontent.com/lukog2002/lukogbook/main/screenshots/chat.png "Logo Title Text 1")
+Profile Page :
+<img src="screenshots/profile.png" width="450" height="500" border="10"/><br/>
+<br/>
+Chatting Page : 
+<img src="screenshots/chat.png" width="450" height="500" border="10"/>
