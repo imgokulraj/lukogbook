@@ -4,9 +4,10 @@ This is a social media app .<br/> You can view other profiles and chat with othe
 <br/>
 <br/>
 To use the app :<br/>
-  * install requirements.txt <br/>
+  * use this command --> pip install -r requirements.txt <br/>
   * run the python file : dbconfig.py <br/>
   * then run the python file : app.py <br/>
+<br/>
 Here are some screenshots of the project . <br/>
 
 <br/>
