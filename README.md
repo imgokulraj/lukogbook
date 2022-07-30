@@ -8,6 +8,7 @@ To use the app :<br/>
   * run the python file : dbconfig.py <br/>
   * then run the python file : app.py <br/>
 <br/>
+Check out video demo in the screenshot folder <br/>
 Here are some screenshots of the project . <br/>
 Screenshots may not be clear. Either Download the image or you can view the screenshots in the screenshots folder
 <br/>
