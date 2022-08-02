@@ -1,6 +1,8 @@
 # lukogbook <br/>
-This is a social media app .<br/> You can view other profiles and chat with others .<br/> Chat history is stored . <br/> Have FUN !!! <br/>
-
+This is a social media app .<br/> You can view other profiles and chat with others .<br/> Chat history is stored . <br/> Have FUN !!! <br/><br/>
+click the below link to see a demo video .<br/>
+[short.webm](https://user-images.githubusercontent.com/78438261/181930643-ebea7f9e-9d07-4a4a-8eb7-cc599a5531cb.webm)<br/>
+<br/>
 <br/>
 <br/>
 To use the app :<br/>
@@ -10,7 +12,10 @@ To use the app :<br/>
 <br/>
 Check out video demo in the screenshot folder <br/>
 Here are some screenshots of the project . <br/>
-[short.webm](https://user-images.githubusercontent.com/78438261/181930643-ebea7f9e-9d07-4a4a-8eb7-cc599a5531cb.webm)<br/>
+
+
+<br/>
+<br/>
 Screenshots may not be clear. Either Download the image or you can view the screenshots in the screenshots folder
 <br/>
 Login Page : <br/>
@@ -30,7 +35,7 @@ Profile Page :
 <br/>
 <br/>
 Chatting Page : 
-<img src="screenshots/chat.png" width="100%" height="500" border="10"/>
+<img src="screenshots/chat.png" width="1000px" height="500" border="10"/>
 <br/>
 </br>
 
