@@ -1,7 +1,7 @@
 # lukogbook <br/>
 This is a social media app .<br/> You can view other profiles and chat with others .<br/> Chat history is stored . <br/> Have FUN !!! <br/><br/>
 click the below link to see a demo video .<br/>
-[short.webm](https://user-images.githubusercontent.com/78438261/181930643-ebea7f9e-9d07-4a4a-8eb7-cc599a5531cb.webm)<br/>
+[Click Here](https://user-images.githubusercontent.com/78438261/181930643-ebea7f9e-9d07-4a4a-8eb7-cc599a5531cb.webm)<br/>
 <br/>
 <br/>
 <br/>
